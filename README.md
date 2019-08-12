@@ -45,9 +45,8 @@ To open ```powershell``` in adminstrator mode, use "option 1" from [this](https:
 When you have completed the installation of WSL, open the WSL terminal. Then do the following steps:
 
 ```bash
-sudo -i
-apt-get update
-apt-get install wget
+sudo apt-get update
+sudo apt-get install wget
 ```
 
 ### Finally, downloading individual files from this repository.
@@ -74,13 +73,49 @@ Go [here](https://code.visualstudio.com/download) and download (and install) the
 
 ### 1100
 
-#### Mac
+#### Mac Python3
 
 Instructions are found [here](https://docs.python-guide.org/starting/install3/osx/).
 
-#### Windows
+Next install ```pip3```. ```pip3``` is the package manager for Python3
 
-Ubuntu should come with Python 3 preinstalled.
+```bash
+brew install pip3
+```
+
+Install some Python packages:
+
+```bash
+pip3 install opencv-python scikit-image scipy mutagen
+```
+
+#### Windows Python3
+
+Ubuntu should come with Python 3 preinstalled. Check by executing (in terminal):
+
+```bash
+python3
+```
+
+This is called interactive Python. Exit this program by pressing the ```d``` key and the ```ctrl``` or ```control``` key at the same time.
+
+Ensure that ```pip3``` is installed by executing:
+
+```bash
+pip3
+```
+
+If it is not installed, execute:
+
+```bash
+sudo apt-get install python3-pip
+```
+
+Install some Python packages:
+
+```bash
+pip3 install opencv-python scikit-image scipy mutagen
+```
 
 ### 1810
 
@@ -109,5 +144,4 @@ sudo -i
 apt update
 apt install build-essential
 ```
-
 
