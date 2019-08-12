@@ -28,7 +28,7 @@ Copy this entire line above and paste it into the Mac ```Terminal```. Then execu
 
 Next, to install ```wget``` copy and paste this next line into the Mac ```Terminal```. Then execute it.
 
-```brew install wget``
+```brew install wget```
 
 [Here](https://www.maketecheasier.com/install-wget-mac/) is a page providing this same information, and more.
 
