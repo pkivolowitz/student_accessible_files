@@ -26,13 +26,27 @@ To access this, you must have Windows 10. Ensure that you are fully updated to t
 
 [Here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) is Microsoft's instructions for installing WSL.
 
-Ensure that you download Ubuntu 18.04 LTS so that all students are using the same version of WSL. If you have already downloaded a different distro, you can try to use it but may at some point you *might* need to switch.
-
 To open ```powershell``` in adminstrator mode, use "option 1" from [this](https://www.tenforums.com/tutorials/25721-open-elevated-windows-powershell-windows-10-a.html) page.
 
-When you have completed the installation of WSL, pin Ubuntu to your Start Menu.
+Once Powershell completes its changes, you will be asked to restart your Windows machine. Do that.
 
-To open the WSL terminal, simply click on the Ubuntu tile in your Start Menu.
+Various Linux distros are found in the Windows App Store. Direct links to the distros are found on the Microsoft instructions given above. You may be asked to "sign up" for something, you don't have to. You may be asked to open the same page directly in the Windows App Store, do so.
+
+Once in the App Store, on the Ubuntu 18.04 page, click "get". You will have to choice of using Ubuntu "across your devices". It isn't necessary that you do so - click "No Thanks".
+
+Ubuntu will begin installation
+
+If you have already downloaded a different distro, you can try to use it but may at some point you *might* need to switch. If you already have a Linux virtual machine, you may try to use it but *might* need to switch.
+
+Once installation is complete, search your Start Menu for Ubuntu and upon finding, you can pin to Start or Taskbar. Or both. Doing this will allow you to get to work quicker in the future.
+
+To open the WSL terminal, simply click on the Ubuntu tile in your Start Menu or on the icon in the taskbar.
+
+The first time, it will take a few minutes. It will ask ```Enter new UNIX username```. Simpler the better here as you're the only one using this system. Same is true for choice of password. 
+
+**PLEASE CHOOSE SOMETHING EASY YOU WILL NOT FORGET**.
+
+You'll be asked to confirm the password by retyping it. Again, the password does not have to be your usual strong password. Rather, it can be something simple and memorable.
 
 Then do the following steps:
 
@@ -42,6 +56,14 @@ sudo apt-get upgrade
 ```
 
 The above commands can be used from time to time to ensure your WSL environment is up to date.
+
+The second command above, which actually performs the upgrade operation, will ask you to confirm your intent to upgrade ending with ```[Y/n]```. This pattern is common in Linux - notice that the ```Y``` is capitalized. This means it is the default if you simply hit the return key.
+
+Now wait.
+
+You may be presented with a scary looking text box talking about ```Restart for Library Upgrades```. Select ```Yes```.
+
+When this program completes, you're ready to move on.
 
 ## Downloading individual files
 
@@ -71,38 +93,22 @@ Next, to install ```wget``` copy and paste this next line into the Mac ```Termin
 
 ### Windows
 
-Enter Ubuntu.
+Enter Ubuntu (i.e. you're running the Ubuntu command prompt).
 
-Perform the following:
+Perform the following - if you are continuing from the previous step performing the ```apt-get update``` is not needed:
 
 ```text
 sudo apt-get update
 sudo apt-get install wget
 ```
 
-### Finally, downloading individual files from this repository
-
-First, decide where you want the downloaded file to go. 
-
-On the Mac, when you enter ```terminal``` you are in your own *home directory*. You will learn how to navigate the directory structure in class.
-
-On Windows, when you enter ```Ubuntu``` you are in your own *home directory*. You will learn how to navigate the directory structure in class.
-
-Once you are "in" the directory you wish the file to be downloaded to, you may use ```wget```.
-
-Here is a sample of downloading one file from this repo. Where it says ```1100``` put in the course number (this term, either 1100 or 1810). Where it says ```syllabus.md``` put in the name of the file you want.
+It is likely, that ```wget``` is already installed. If you get a message about something that can be ```autoremoved```, you can do so using
 
 ```text
-wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/1100/syllabus.md
+sudo apt autoremove
 ```
 
-To download something in the repo's top level directory (such as this README.md), leave out the course number. Example:
-
-```bash
-wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/README.md
-```
-
-You can quickly get the URL of the file to download by navigating to it in a Web browser, then copy the URL and paste it in the terminal after ```wget```.
+Notice, this time you're executing ```apt``` and not ```apt-get```. The reasons for this are known only to your hairdresser.
 
 ## Installing language tools
 
@@ -175,8 +181,44 @@ g++ --version
 From a WSL terminal enter (and execute):
 
 ```bash
-sudo -i
-apt update
-apt install build-essential
+sudo apt update
+sudo apt install build-essential
 ```
+
+With regard to the ```update```, if you are continuing from the beginning of these instruction, this command is not necessary.
+
+Confirm that the tools have been installed by typing:
+
+```bash
+g++ --version
+```
+
+You are likely to get version 7.4.0 or later.
+
+
+### NOTE NOTE NOTE - REFACTOR THIS - STOP HERE FOR DAY ONE
+
+### Finally, downloading individual files from this repository
+
+First, decide where you want the downloaded file to go. 
+
+On the Mac, when you enter ```terminal``` you are in your own *home directory*. You will learn how to navigate the directory structure in class.
+
+On Windows, when you enter ```Ubuntu``` you are in your own *home directory*. You will learn how to navigate the directory structure in class.
+
+Once you are "in" the directory you wish the file to be downloaded to, you may use ```wget```.
+
+Here is a sample of downloading one file from this repo. Where it says ```1100``` put in the course number (this term, either 1100 or 1810). Where it says ```syllabus.md``` put in the name of the file you want.
+
+```text
+wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/1100/syllabus.md
+```
+
+To download something in the repo's top level directory (such as this README.md), leave out the course number. Example:
+
+```bash
+wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/README.md
+```
+
+You can quickly get the URL of the file to download by navigating to it in a Web browser, then copy the URL and paste it in the terminal after ```wget```.
 
