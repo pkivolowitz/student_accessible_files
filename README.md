@@ -16,7 +16,7 @@ Go [here](https://code.visualstudio.com/download) and download (and install) the
 
 You already have "terminal". If it is not already pinned to your Dock, do that now.
 
-[Here](./mac/terminal.mov) is a video on doing this.
+[Here](https://vimeo.com/354865351) is a video showing this.
 
 ### Windows
 
