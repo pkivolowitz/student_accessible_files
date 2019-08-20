@@ -4,7 +4,44 @@ This repository houses course content made available throughout the semester. Bo
 
 **Note: When this semester is concluded, this repository will be taken down.**
 
-This step is necessary since the classes contained here will be repeated.
+## Installing Visual Studio Code
+
+Microsoft ```Visual Studio Code``` is the development editor we will be using. You are not required to use ```VS Code``` if you are already familiar with another IDE such as ```xcode``` or ```Visual Studio```. 
+
+Go [here](https://code.visualstudio.com/download) and download (and install) the one for your operating system.
+
+## Installing the command line environment
+
+### Mac
+
+You already have "terminal". If it is not already pinned to your Dock, do that now.
+
+[Here](./mac/terminal.mov) is a video on doing this.
+
+### Windows
+
+The Linux command line environment is found within WSL (Windows Subsystem for Linux).
+
+To access this, you must have Windows 10. Ensure that you are fully updated to the latest Windows 10 - if you need to do this, do it outside of class since it may take hours.
+
+[Here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) is Microsoft's instructions for installing WSL.
+
+Ensure that you download Ubuntu 18.04 LTS so that all students are using the same version of WSL. If you have already downloaded a different distro, you can try to use it but may at some point you *might* need to switch.
+
+To open ```powershell``` in adminstrator mode, use "option 1" from [this](https://www.tenforums.com/tutorials/25721-open-elevated-windows-powershell-windows-10-a.html) page.
+
+When you have completed the installation of WSL, pin Ubuntu to your Start Menu.
+
+To open the WSL terminal, simply click on the Ubuntu tile in your Start Menu.
+
+Then do the following steps:
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+The above commands can be used from time to time to ensure your WSL environment is up to date.
 
 ## Downloading individual files
 
@@ -12,9 +49,9 @@ On both the Mac and on Windows, to download a single file without using ```git``
 
 ### Macintosh
 
-```wget``` does not come installed on the Mac. 
+```wget``` does not come installed on the Mac.
 
-To get it, you must use ```brew```. 
+To get it, you must use ```brew```.
 
 ```brew``` does not come installed on the Mac.
 
@@ -34,22 +71,24 @@ Next, to install ```wget``` copy and paste this next line into the Mac ```Termin
 
 ### Windows
 
-To use wget (and just about everything else in my courses) you must install WSL (Windows Subsystem for Linux).
+Enter Ubuntu.
 
-[Here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) is Microsoft's instructions for installing WSL.
+Perform the following:
 
-Ensure that you download Ubuntu 18.04 LTS so that all students are using the same version of WSL. If you have already downloaded a different distro, you can try to use it but may at some point need to switch.
-
-To open ```powershell``` in adminstrator mode, use "option 1" from [this](https://www.tenforums.com/tutorials/25721-open-elevated-windows-powershell-windows-10-a.html) page.
-
-When you have completed the installation of WSL, open the WSL terminal. Then do the following steps:
-
-```bash
+```text
 sudo apt-get update
 sudo apt-get install wget
 ```
 
-### Finally, downloading individual files from this repository.
+### Finally, downloading individual files from this repository
+
+First, decide where you want the downloaded file to go. 
+
+On the Mac, when you enter ```terminal``` you are in your own *home directory*. You will learn how to navigate the directory structure in class.
+
+On Windows, when you enter ```Ubuntu``` you are in your own *home directory*. You will learn how to navigate the directory structure in class.
+
+Once you are "in" the directory you wish the file to be downloaded to, you may use ```wget```.
 
 Here is a sample of downloading one file from this repo. Where it says ```1100``` put in the course number (this term, either 1100 or 1810). Where it says ```syllabus.md``` put in the name of the file you want.
 
@@ -63,11 +102,7 @@ To download something in the repo's top level directory (such as this README.md)
 wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/README.md
 ```
 
-## Installing Visual Studio Code
-
-Microsoft ```Visual Studio Code``` is the development editor we will be using. You are not required to use ```VS Code``` if you are already familiar with another IDE such as ```xcode``` or ```Visual Studio```. 
-
-Go [here](https://code.visualstudio.com/download) and download (and install) the one for your operating system.
+You can quickly get the URL of the file to download by navigating to it in a Web browser, then copy the URL and paste it in the terminal after ```wget```.
 
 ## Installing language tools
 
