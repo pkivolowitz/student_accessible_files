@@ -195,30 +195,6 @@ g++ --version
 
 You are likely to get version 7.4.0 or later.
 
+## Continue setting things up
 
-### NOTE NOTE NOTE - REFACTOR THIS - STOP HERE FOR DAY ONE
-
-### Finally, downloading individual files from this repository
-
-First, decide where you want the downloaded file to go. 
-
-On the Mac, when you enter ```terminal``` you are in your own *home directory*. You will learn how to navigate the directory structure in class.
-
-On Windows, when you enter ```Ubuntu``` you are in your own *home directory*. You will learn how to navigate the directory structure in class.
-
-Once you are "in" the directory you wish the file to be downloaded to, you may use ```wget```.
-
-Here is a sample of downloading one file from this repo. Where it says ```1100``` put in the course number (this term, either 1100 or 1810). Where it says ```syllabus.md``` put in the name of the file you want.
-
-```text
-wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/1100/syllabus.md
-```
-
-To download something in the repo's top level directory (such as this README.md), leave out the course number. Example:
-
-```bash
-wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/README.md
-```
-
-You can quickly get the URL of the file to download by navigating to it in a Web browser, then copy the URL and paste it in the terminal after ```wget```.
-
+Continue set up [here](./setup_2.md).
