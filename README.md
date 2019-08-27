@@ -44,7 +44,7 @@ To open the WSL terminal, simply click on the Ubuntu tile in your Start Menu or 
 
 The first time, it will take a few minutes. It will ask ```Enter new UNIX username```. Simpler the better here as you're the only one using this system. Same is true for choice of password. 
 
-**PLEASE CHOOSE SOMETHING EASY YOU WILL NOT FORGET**.
+**PLEASE CHOOSE A WSL PASSWORD THAAT YOU WILL NOT FORGET**.
 
 You'll be asked to confirm the password by retyping it. Again, the password does not have to be your usual strong password. Rather, it can be something simple and memorable.
 
