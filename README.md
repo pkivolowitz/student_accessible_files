@@ -8,7 +8,7 @@ This repository houses course content made available throughout the semester. Bo
 
 Microsoft ```Visual Studio Code``` is the development editor we will be using. You are not required to use ```VS Code``` if you are already familiar with another IDE such as ```xcode``` or ```Visual Studio```. 
 
-Go [here](https://code.visualstudio.com/download) and download (and install) the one for your operating system.
+Go [here](https://code.visualstudio.com/download) and download (and install) the one for your operating system. You can choose "User Installer" 64 bit for Windows. Mac has only one choice.
 
 ## Installing the command line environment
 
