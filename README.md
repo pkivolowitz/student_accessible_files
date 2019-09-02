@@ -1,5 +1,3 @@
-May need:  brew upgrade gcc
-
 # Fall 2019 - Student Accessible Files
 
 This repository houses course content made available throughout the semester. Bookmark the subpage that refers to the course(s) in which you are enrolled.
@@ -163,6 +161,20 @@ pip3 install opencv-python scikit-image scipy mutagen
 ### 1810
 
 #### Mac
+
+**STOP HERE**
+
+Dear students: Because I do not have access to a "virgin" Macintosh, I am not clear about which way to proceed to install our language tools given that we intend to *avoid* xcode.
+
+This is what I am thinking we need to do (which is new):
+
+```text
+brew upgrade gcc
+```
+
+##### This is the old way which may cause problems later
+
+Don't do this until we can explore this together in class.
 
 Open a terminal and enter (and execute):
 
