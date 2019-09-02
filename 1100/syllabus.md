@@ -75,7 +75,7 @@ print('I love this course')
 | Midterm | 10% |
 | Final | 10% |
 | &nbsp; | &nbsp; |
-| Attendance | -10% |
+| Attendance (lack of) | -10% |
 |||
 
 ### Zybooks readings
@@ -112,13 +112,50 @@ It is really important to learn how to locate errors and fix them in your code. 
 
 The Carthage Advising Center offers a variety of services and accommodations to students with disabilities, based on appropriate documentation, nature of disability, and academic need. In order to initiate services, students should meet with Diane Schowalter at the start of the semester to discuss reasonable accommodation. After meeting with Diane Schowalter, students in need of accommodations should also speak with individual faculty members from whom accommodations are sought to communicate their needs and make requests in a timely manner. If a student does not request accommodation or provide documentation, the faculty member is under no obligation to provide accommodations. You may contact Diane Schowalter at ext. 5802 or via e-mail at dschowalter1@carthage.edu.
 
+## A note about accessibility
+
+Carthage College strives to make all learning experiences as accessible as possible. If you anticipate or experience academic barriers due to your disability (including mental health, learning disorders and chronic medical conditions), please let me know immediately so that we can privately discuss options.  To establish reasonable accommodations, you also need to register with Diane Schowalter in Learning Accessibility Services (dschowalter1@carthage.edu).
+
+
+## Concerning learning outcomes
+
+Students may vary in their competency levels of any stated outcome. Students can expect to achieve stated outcomes only if they honor all course policies, attend classes regularly, complete all assigned work in good faith and on time and meet all other course expectations of them as students.
+
+## Possibility of changes made to the course
+
+Please note the above schedule, policies, procedures and assignments in the course are subject to change in the event of extenuating circumstances, by mutual agreement and / or to encourage better student outcomes.
+
+## Academic Success and Health
+
+Good health can help you achieve academic success. The Health and Counseling Center (HCC) supports students by addressing physical, mental, and emotional well-being. All services are free and confidential and are provided by experienced and licensed professionals. Services are available to all full-time, undergraduate students.
+TARC 2240 | 262-551-5710 | https://www.carthage.edu/campus-life/health-counseling/
+
+Mon-Fri 8:00am-4:00pm
+
 ## Office hours
 
 I do not post office hours because no matter what I choose them to be, many of you will not be able to make it. What I do instead, I think, is way better.
 
 I strive to keep my Google Calendar up-to-date. You have access to my calendar. Consult it, find an empty spot, set a meeting adding me as a guest and send me an invitation. In this way, I can meet with you when it is convenient for you rather than ask you to conform entirely to my schedule.
 
+To make an appointment use Google Calendar. You have access to it – we all do. Select show co-worker’s schedule and enter pkivolowitz. When my schedule is visible, pick a blank spot. Click on the blank spot you want and enter an informative title and adjust the time carefully. THEN MAKE SURE YOU SEND ME AN INVITATION. Do this by entering my email address where guests are specified. Make sure you click the “send invitation” button shown to you when you’ve saved the meeting.
+
 My office is located in Straz 090.
+
+## Academic Honesty Guidelines
+
+Carthage College Academic Honesty Guidelines are found [here](https://www.carthage.edu/community-code/academic-concerns/academic-honesty-guidelines/).
+
+### TL;DR
+
+| Topic	| Summary |
+| ----- | ------- |
+| Plagiarism | Don’t do it |
+| Cheating on a Test | Don’t do it |
+| False Citation | Don’t do it |
+| Multiple Submissions | Don’t do it |
+|False Data | Don’t do it |
+
 
 ## About me
 
@@ -126,7 +163,7 @@ I have been devoted to computer science for 45 years (as of Fall, 2019). I've st
 
 This is my 5th year at Carthage. Prior to coming here, I was 10 years at Wisconsin. I am Chair of the Computer Science Department here at Carthage.
 
-I am fanatical about quality and pride-of-craft. You will hear me say it over and over: Software kills. We have a moral obligation to code the best we can.
+I am fanatical about quality and pride-of-craft. You will hear me say it over and over: Software kills. We have a moral and social obligation to code the best we can.
 
 In my copious spare time I write [Zombie novels](https://www.amazon.com/Get-Off-My-Zombie-Novel-ebook/dp/B00DQ26J8G/ref=sr_1_fkmrnull_1?keywords=get+off+my+l%40wn&qid=1558140774&s=gateway&sr=8-1-fkmrnull).
 
