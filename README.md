@@ -162,19 +162,9 @@ pip3 install opencv-python scikit-image scipy mutagen
 
 #### Mac
 
-**STOP HERE**
-
 Dear students: Because I do not have access to a "virgin" Macintosh, I am not clear about which way to proceed to install our language tools given that we intend to *avoid* xcode.
 
-This is what I am thinking we need to do (which is new):
-
-```text
-brew upgrade gcc
-```
-
-##### This is the old way which may cause problems later
-
-Don't do this until we can explore this together in class.
+We will need to feel this out this together.
 
 Open a terminal and enter (and execute):
 
@@ -190,13 +180,23 @@ Verify that you have ```g++``` by typing (and executing):
 g++ --version
 ```
 
+Next, type in:
+
+```text
+lldb
+```
+
+A popup similar to above should appear. As it to install.
+
+Note for the future - do not follow this [link](https://code.visualstudio.com/docs/cpp/config-clang-mac) now. The link gives instructions for creating a Mac compatible VSCode project using VSCode as an IDE. Rather, we begin using the command line.
+
 #### Windows
 
 From a WSL terminal enter (and execute):
 
 ```bash
 sudo apt update
-sudo apt install build-essential
+sudo apt install build-essential gdb
 ```
 
 With regard to the ```update```, if you are continuing from the beginning of these instruction, this command is not necessary.
@@ -208,6 +208,9 @@ g++ --version
 ```
 
 You are likely to get version 7.4.0 or later.
+
+
+Note for the future - do not follow this [link](https://code.visualstudio.com/docs/cpp/config-wsl) now. The link gives instructions for creating a WSL compatible VSCode project using VSCode as an IDE. Rather, we begin using the command line.
 
 ## Continue setting things up
 
