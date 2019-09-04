@@ -4,6 +4,10 @@ This repository houses course content made available throughout the semester. Bo
 
 **Note: When this semester is concluded, this repository will be taken down.**
 
+## Cool Resource
+
+Our very own Professor Mahoney has built a cool online tool for teaching [C++](https://ourcodestories.com/markm208/Playlist/2) and [Python](https://ourcodestories.com/markm208/Playlist/16).
+
 ## Installing Visual Studio Code
 
 Microsoft ```Visual Studio Code``` is the development editor we will be using. You are not required to use ```VS Code``` if you are already familiar with another IDE such as ```xcode``` or ```Visual Studio```. 
@@ -116,7 +120,7 @@ Notice, this time you're executing ```apt``` and not ```apt-get```. The reasons 
 
 #### Mac Python3
 
-Instructions are found [here](https://docs.python-guide.org/starting/install3/osx/).
+Instructions are found [here](https://docs.python-guide.org/starting/install3/osx/). We should probably do this together because the Mac is, well, "Think Different."
 
 Next install ```pip3```. ```pip3``` is the package manager for Python3
 
