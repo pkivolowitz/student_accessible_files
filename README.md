@@ -122,10 +122,12 @@ Notice, this time you're executing ```apt``` and not ```apt-get```. The reasons 
 
 Instructions are found [here](https://docs.python-guide.org/starting/install3/osx/). We should probably do this together because the Mac is, well, "Think Different."
 
-Next install ```pip3```. ```pip3``` is the package manager for Python3
+```pip3```, the Python3 package manager should now also be installed.
 
-```bash
-brew install pip3
+Verify by typing:
+
+```text
+pip3 --version
 ```
 
 Install some Python packages:
