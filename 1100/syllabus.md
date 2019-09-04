@@ -56,6 +56,8 @@ Also, some (free) resources are useful, including:
 
 [Introduction to Python](http://introtopython.org)
 
+[Storyteller](https://ourcodestories.com/markm208/Playlist/16) is written by Prof. Mahoney right here at Carthage.
+
 There are two incompatible families of Python: 2.x and 3.x. We are studying 3.x. When you consult online references, be wary of differences between the languages. For example:
 
 ```python
