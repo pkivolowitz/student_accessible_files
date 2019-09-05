@@ -192,7 +192,7 @@ Next, type in:
 lldb
 ```
 
-A popup similar to above should appear. As it to install.
+A popup similar to above should appear. Ask it to install.
 
 Note for the future - do not follow this [link](https://code.visualstudio.com/docs/cpp/config-clang-mac) now. The link gives instructions for creating a Mac compatible VSCode project using VSCode as an IDE. Rather, we begin using the command line.
 
