@@ -88,3 +88,11 @@ Follow the directions to install software for CSC 1810. The instructions are loc
 ### zybooks readings
 
 Read and do chapters 1.1, 1.2 and 1.3. These are due by the next class.
+
+## Source code
+
+You can download the above program using the following line (when execute in your terminal):
+
+```
+wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/1810/lessons/001/main.cpp
+```
