@@ -221,3 +221,7 @@ Note for the future - do not follow this [link](https://code.visualstudio.com/do
 ## Continue setting things up
 
 Continue set up [here](./setup_2.md).
+
+## Link to scripts
+
+[Here](./scripts.zip) is a link to scripts to help set up projects in WSL.
