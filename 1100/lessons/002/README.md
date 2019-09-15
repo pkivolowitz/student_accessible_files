@@ -6,6 +6,12 @@ In lesson 001 we saw that ```if``` statements let a program choose different pat
 
 Here is a version of [p1.py](./p1.py).
 
+You can use wget to get this program using this command from the terminal:
+
+```text
+wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/1100/lessons/002/p1.py
+```
+
 ```python
  0 # Your job is, at your table:
  1 # - research the various Python 3 features found in this program
