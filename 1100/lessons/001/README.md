@@ -60,6 +60,12 @@ Instead, we will use this:
 
 This program can be downloaded [here](./main.py).
 
+You can download this program using:
+
+```
+wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/1100/lessons/001/main.py
+```
+
 ## Lines 0 through 4: # introduces a comment
 
 Lines 0 through 4 begin with ```#```. 
