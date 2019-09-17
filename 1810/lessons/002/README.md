@@ -74,6 +74,10 @@ Notice that what appears between ```/*``` and ```*/``` is even set off in a diff
 
 Programs are typically designed to end. How (and where) does this program terminate? Are there any loops in this program?
 
+## SKIP TO HOMEWORK - MAC USERS CAN READ THIS AT LEISUR
+
+Nearly the rest of this document refers to the WSL environment. It also applies to the Mac so if you have one, you can read this at home.
+
 ## Continue with setting up the command line environment
 
 Read and do this [page](https://github.com/pkivolowitz/student_accessible_files/blob/master/setup_2.md) if you have not done so already.
@@ -320,3 +324,12 @@ When it is time to turn in work, for example, you can use this technique to get 
 ### zybooks readings
 
 Read and do zybooks chapters 1.4, 1.6 and 1.7. These reading are due at the next class.
+
+## More in class exercises
+
+Add the following feature:
+
+* If neither person is 67 or older, print "Neither can get Social Security".
+* Only one person is 67 or older, print "Exactly one person can get Social Security".
+* Both persons are 67 or older, print "Both persons can get Social Security".
+
