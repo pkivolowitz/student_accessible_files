@@ -76,7 +76,7 @@ Programs are typically designed to end. How (and where) does this program termin
 
 ## SKIP TO HOMEWORK - MAC USERS CAN READ THIS AT LEISUR
 
-Nearly the rest of this document refers to the WSL environment. It also applies to the Mac so if you have one, you can read this at home.
+Nearly the rest of this document refers to the WSL environment. Some of it also applies to the Mac so if you have one, you can read this at home.
 
 ## Continue with setting up the command line environment
 
