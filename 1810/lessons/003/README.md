@@ -30,7 +30,7 @@ Create a new xcode or VS project. For xcode, make sure you know where you are pu
 
 Open the terminal and change to the directory for the sample source code file is. Do:
 
-```wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/1810/lessons/004/main.cpp```
+```wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/1810/lessons/003/main.cpp```
 
 Then, follow my instructions to get this connected to your project.
 
