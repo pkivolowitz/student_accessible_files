@@ -4,7 +4,11 @@ In lesson 003 we saw our first loop. In this lesson, as in the next few, we will
 
 ## A second for loop example
 
-Here is the code statements from [p2.py](./p2.py) (with comments removed for brevity):
+Here is the code statements from [p2.py](./p2.py) (with comments removed for brevity). You can get this code with:
+
+```
+wget https://raw.githubusercontent.com/pkivolowitz/student_accessible_files/master/1100/lessons/003/p2.py
+```
 
 ```python
  0 # Your job is, at your table:
