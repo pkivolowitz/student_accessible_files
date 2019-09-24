@@ -136,7 +136,7 @@ No more than 3 quarters should ever be printed. Why? One ten?
 
 ## Due date
 
-You have one week. Due 11:59 PM next Tuesday.
+You have one week. Due 12:30 PM next Tuesday (i.e. immediately before class).
 
 ## Partner rules
 
