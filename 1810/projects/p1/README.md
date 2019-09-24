@@ -142,6 +142,8 @@ You have one week. Due 11:59 PM next Tuesday.
 
 You may work with one partner.
 
+If you are working with a partner, only one of you has to turn in the code. That person, must turn in code that has the name of both partners at the top of the program as a comment. The *other* partner, can submit a **text** file saying who their partner was.
+
 ## What to turn in
 
 Just one C++ file. Into schoology.
