@@ -1,4 +1,4 @@
-# Project - Making change
+# Project 1 - Making change
 
 ## Overview
 
