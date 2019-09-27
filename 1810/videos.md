@@ -3,4 +3,4 @@
 * [Compiling](https://vimeo.com/316438173)
 * Tuesday [9/17/19](https://vimeo.com/360694673)
 * Tuesday [9/24/19](https://vimeo.com/362197271)
-* Thursday [9/26/19](no link yet)
+* Thursday [9/26/19](https://vimeo.com/362768334)
