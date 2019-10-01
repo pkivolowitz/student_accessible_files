@@ -82,7 +82,7 @@ Hello, world
 hyde tmp $>
 ```
 
-With VS on Windows, there everything is "hard", this is relatively easy.
+With VS on Windows, where everything is "hard", this is relatively easy.
 
 * Tools->Command Line->Developer Command Prompt
 * Type `cl /EHsc` and add the name of your cpp file. For example, if the name of your cpp file was `main.cpp` you would type `cl /EHsc main.cpp`
