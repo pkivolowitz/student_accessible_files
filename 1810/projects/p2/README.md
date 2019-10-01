@@ -145,4 +145,4 @@ One partner turns in their code into Schoology. The other partner (if any) turns
 
 ## Due date
 
-The project is due at 12:30 October 8th.
+The project is due at 11:59 PM October 8th.
