@@ -51,4 +51,64 @@ It contains this:
 2/27/19,21,31,42,49,59,23,5
 ```
 
-Nearly all the lines have 8 fields.
+Nearly all the lines have 8 fields. One line does not.
+
+## Program output
+
+Your job is to read each line decoded as CSV. Then, average the first five columns beyond the date. Print each line's average along with its line number like so:
+
+```text
+$> python3 p2.py data.csv
+1    Average: 34.400000
+2    Average: 28.000000
+3    Average: 30.400000
+4    Average: 34.400000
+5    Average: 30.200000
+6    Average: 27.600000
+7    Average: 34.000000
+8    Average: 37.200000
+9    Average: 20.000000
+10   Average: 45.800000
+11   Average: 27.200000
+12   Average: 35.600000
+13   Average: 35.800000
+14   Average: 34.800000
+15   Bad length - ignored
+16   Average: 29.000000
+17   Average: 25.600000
+18   Average: 32.400000
+19   Average: 42.000000
+20   Average: 28.200000
+21   Average: 51.800000
+22   Average: 35.800000
+23   Average: 45.400000
+24   Average: 38.000000
+25   Average: 44.600000
+26   Average: 43.000000
+27   Average: 34.000000
+28   Average: 23.600000
+29   Average: 28.000000
+30   Average: 40.400000
+```
+
+Let's look at line 1 in detail:
+
+```csv
+6/8/19,09,13,42,48,60,18,2
+```
+
+The numbers to be averaged are 09, 13, 42, 48 and 60 - from columns 2 through 6. These are indexes 1 through 5 when counting from zero. These average to 34.4. So, output:
+
+```text
+1    Average: 34.400000
+```
+
+Line 15 of the input data has a problem - it is too short. Make sure you have code to detect and skip problems such as this.
+
+## Partner rules
+
+Work on this project by yourselves, together. In other words, do you own work but feel free to discuss with your colleagues.
+
+## Due date
+
+This project is due at 11:59 PM on October 8.
