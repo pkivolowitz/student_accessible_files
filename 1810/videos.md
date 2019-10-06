@@ -5,4 +5,4 @@
 * Tuesday [9/24/19](https://vimeo.com/362197271)
 * Thursday [9/26/19](https://vimeo.com/362768334)
 * Tuesday [10/01/19](https://vimeo.com/363705913)
-* Thursday [10/03/19](NA)
+* Thursday [10/03/19](https://vimeo.com/364655053)
