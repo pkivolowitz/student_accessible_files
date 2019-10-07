@@ -7,3 +7,4 @@
 * Monday [09/30/19](https://vimeo.com/363705739)
 * Wednesday [10/02/19](https://vimeo.com/364656020)
 * Friday [10/04/19](https://vimeo.com/364665632)
+* Monday [10/07/19](https://vimeo.com/364915471)
