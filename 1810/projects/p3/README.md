@@ -143,3 +143,23 @@ This work is to be done **SOLO**. All students are to hand in their own work.
 
 Commenting is part of your grade in this (and future) projects.
 
+## Reminder on iterating using iterators
+
+Insert needs an iterator to define where to insert.
+
+```c++
+vector<int> v;
+for (vector<int>::iterator it = v.begin(); it < v.end(); it++) {
+	cout << *it << endl;
+}
+```
+
+or 
+
+```c++
+vector<int> v;
+for (auto it = v.begin(); it < v.end(); it++) {
+	cout << *it << endl;
+}
+```
+
