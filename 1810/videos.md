@@ -3,6 +3,7 @@
 * [Compiling](https://vimeo.com/316438173)
 * [Arrays in memory](https://vimeo.com/365168679)
 * [Capacity versus size in a vector](https://vimeo.com/365171353)
+* [Example of a vector iterator and example of range-based for loop](https://vimeo.com/365172851)
 
 * Tuesday [9/17/19](https://vimeo.com/360694673)
 * Tuesday [9/24/19](https://vimeo.com/362197271)
