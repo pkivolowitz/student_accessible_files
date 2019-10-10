@@ -1,6 +1,6 @@
-# Insertion Sort
+# Inserting in Sorted Order
 
-This project expands on the introduction to the use of `vector`. You will implement an Insertion Sort and use it to sort of `vector` of randomly assigned integers.
+This project expands on the introduction to the use of `vector`. You will implement a sorted vector from inputs chosen at random, inserted one by one.
 
 ## Other new material
 
@@ -92,9 +92,9 @@ A function comment's text should provide the *big picture*. In terms of strategy
 
 Your job is to write only what is indicated. `main()` isn't to be modified.
 
-## Insertion sort algorithm
+## Inserting in sorted order algorithm
 
-An insertion sort is an **inefficient** method of sorting whereby the collection is iterated over repeatedly as each element is added in sorted order.
+This sort is an **inefficient** method of sorting because the collection is iterated over repeatedly as each element is added in sorted order.
 
 The idea is that a new element is inserted immediately *before* the first element which is larger than the one to be inserted.
 
