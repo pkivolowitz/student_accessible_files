@@ -64,9 +64,18 @@ getline(file, line);
 1. Ask for the name of the file.
 2. Attempt to open the file. Print an error message if the file cannot be opened and exit.
 3. Read the entire file using `getline()` using `tellg()` to learn the character offset of the beginning of each line. I suggest a `do / while` loop. Make a vector to hold all the offsets.
-4. Select a member of the vector at random - seek to the location.
+4. Select a member of the vector at random - seek to the location checking to make sure it worked.
+5. `getline()` the fortune, print it out.
+6. `close()` the file.
 
-The idea is that you read the entire file line by line but do not store all the lines. Instead you are storing the byte offset from the beginning of the file to where each line starts into a vector. Then choose a random number between 0 and the size of the vector minus 1. That entry in the vector contains the `seekg()` value for the randomly chosen line.
+## Steps in using a file
+
+1. Attempt to `open()` the file.
+2. Test if the file really is open. Handle error if not.
+3. Use the file.
+4. `close()` the file.
+
+Failure to do (2) above results in *instaten* - an immediate 10 point reduction.
 
 ## do / while loop
 
@@ -78,18 +87,32 @@ Or, another way:
 
 ![this also explains it all](./do_while.png)
 
+## Examples of output
+
+### Bad file name
+
+```text
+pk_fortune2 $> ./a.out
+Enter fortune file's name: oijoijoij
+Could not open file: oijoijoij
+pk_fortune2 $>
+```
+
+### Example of good file name
+
+```text
+pk_fortune2 $> ./a.out
+Enter fortune file's name: fortunes.txt
+Lines read: 4579
+Selecting fortune: 3657
+Lucent in Motion is almost in full swing.
+pk_fortune2 $> 
+```
+
 ## Work rules
 
 Work is to be done solo.
 
-## Comments are graded
+## Commenting is graded
 
-Comment style and quality may affect your grade.
-
-## No warnings
-
-A fast and needless way to lose ten points is to allow a warning to survive in your code. Ignored warnings cause airplanes to fall out of the sky.
-
-## Due date
-
-This program is due the 
+Function comments are expected at least.
