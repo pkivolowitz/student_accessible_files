@@ -70,7 +70,7 @@ The idea is that you read the entire file line by line but do not store all the 
 
 ## do / while loop
 
-Here is the different between a `while` loop and a `do / while` loop.
+Here is the difference between a `while` loop and a `do / while` loop.
 
 ![this explains it all](./dowhile.jpg)
 
