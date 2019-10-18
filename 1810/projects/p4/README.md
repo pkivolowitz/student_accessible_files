@@ -70,7 +70,7 @@ The idea is that you read the entire file line by line but do not store all the 
 
 ## do / while loop
 
-Here is the difference between a `while` loop and a `do / while` loop.
+Here is the different between a `while` loop and a `do / while` loop.
 
 ![this explains it all](./dowhile.jpg)
 
@@ -90,6 +90,3 @@ Comment style and quality may affect your grade.
 
 A fast and needless way to lose ten points is to allow a warning to survive in your code. Ignored warnings cause airplanes to fall out of the sky.
 
-## Due date
-
-This program is due the 
