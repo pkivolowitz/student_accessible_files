@@ -5,6 +5,7 @@
 * [Capacity versus size in a vector](https://vimeo.com/365171353)
 * [Example of a vector iterator and example of range-based for loop](https://vimeo.com/365172851)
 * [Getting a data file into the right place to use in a program in XCODE](https://vimeo.com/367589501)
+* [Getting a data file into the right place to use in a program in Visual Studio](https://vimeo.com/367594106)
 * Tuesday [9/17/19](https://vimeo.com/360694673)
 * Tuesday [9/24/19](https://vimeo.com/362197271)
 * Thursday [9/26/19](https://vimeo.com/362768334)
