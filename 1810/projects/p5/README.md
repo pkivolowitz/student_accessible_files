@@ -234,3 +234,22 @@ All work is to be done solo.
 ## Setting expectations
 
 My implementation has 140 lines. This is not a challenge or test. This information is given only to allow you to scale your expectations. If you're exceeding this number of lines *by a lot* maybe you should rethink what you're doing.
+
+## Source code to a data making program added
+
+It has a cool feature - if a THIRD command line argument is given, it specifies the name of the file in which output is written. This is how you can get your data into file form.
+
+So:
+
+```text
+programname surnames.csv fname.csv
+```
+
+sends output to the console. But:
+
+```text
+programname surnames.csv fname.csv output.csv
+```
+
+sends the output to a file called `output.csv`.
+
