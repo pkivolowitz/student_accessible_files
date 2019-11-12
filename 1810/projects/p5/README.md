@@ -46,7 +46,7 @@ cout << p.fname << " " << p.lname << " " << p.age << endl;
 ```c++
 struct Student {
 	string fname;
-	string lnage;
+	string lname;
 	string student_id;
 	int age;
 	vector<int> scores;
