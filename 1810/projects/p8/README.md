@@ -89,7 +89,7 @@ A phone-connected terminal could update all character positions once every 64 se
 
 ![VT100](./DEC_VT100_terminal.jpg) 
 
-*This is a DEC VT100 terminal displaying what appears to be an RT11 directory listing. Man, I'm old.*
+*This is a DEC VT100 terminal displaying what appears to be an [RT-11](https://en.wikipedia.org/wiki/RT-11) directory listing. I loved RT-11! Man, I'm old.*
 
 Minimizing the number of characters sent to a terminal was extremely important. curses was written at UC Berkeley as part of BSD Unix by Ken Arnold for things such as ```rogue``` and ```vi```.
 
