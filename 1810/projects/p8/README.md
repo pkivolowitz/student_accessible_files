@@ -219,10 +219,6 @@ At this point the program should build barring any of your own errors. However, 
 
 #### Windows
 
-## Linking with curses
-
-### Windows
-
 Available for download with this project is a zip file called `windows.zip`. Download and unzip this file. It contains:
 
 * `panel.h` - an include file which will not be used in this project but must be installed where your source code is placed.
